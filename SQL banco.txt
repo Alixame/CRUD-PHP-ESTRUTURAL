@@ -1,0 +1,5 @@
+create table funcionarios (
+	id_funcionario int AUTO_INCREMENT PRIMARY KEY,
+	nome_funcionario varchar(45),
+	rg_funcionario varchar(20)
+);

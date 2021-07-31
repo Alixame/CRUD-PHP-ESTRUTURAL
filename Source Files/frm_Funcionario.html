@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Funcionario</title>
+</head>
+<body>
+    
+<form action="inserir_Funcionario.php" method="POST">
+<div class="container">
+<div class="jumbotron bg-dark text-light mt-3">
+    <h1 class="text-center">Cadastro de Funcionario</h1>
+    <br>
+        <label for="nome">Nome: </label>
+        <input class="input-group-text form-control" type="text" id="nome" name="nome">
+    <br>
+        <label for="rg">RG: </label>
+        <input class="input-group-text form-control" type="text" id="rg" name="rg">
+    <br>
+        <center><input class="btn btn-primary" type="submit" value="Cadastrar"></center>
+
+</div>
+</div>
+</form>
+   <center><a href="listar_Funcionario.php">Visualizar Registros</a></center>
+
+
+
+</body>
+</html>
